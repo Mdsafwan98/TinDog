@@ -1,0 +1,166 @@
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 3rem;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+h4{
+    font-family: "Montserrat-Bold";
+  color: #fff;
+  padding-top: 5%;
+  font-size: 50px;
+}
+
+h5 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 50px;
+}
+
+body {
+  font-family: "Montserrat-Dark";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*---Title---*/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.nav-item-group {
+  margin-left: 700px;
+  padding: 0 5%;
+  font-family: "Montserrat";
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 5px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  color: #fff;
+}
+
+.btn {
+  margin: 3% 1% 3% 0;
+}
+
+.title-img {
+  width: 15%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 40%;
+
+
+}
+
+#features {
+  padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.place {
+  color: #fff;
+  font-weight: bold;
+}
+
+#press {
+  text-align: center;
+  padding: 20px;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+.title-img{
+  position: static;
+  transform: rotate(0);
+}
+
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+#footer{
+  padding-top: 200px;
+  text-align: center;
+}
+.social{
+  font-size: 20px;
+  padding: 5px 5px;
+}
